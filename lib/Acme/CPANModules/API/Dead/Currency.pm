@@ -1,10 +1,14 @@
 package Acme::CPANModules::API::Dead::Currency;
 
+use strict;
+
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our $LIST = {
-    summary => "Marking dead currency APIs",
+    summary => "List of dead currency API modules on CPAN",
     description => <<'_',
 
 CPAN is full of unmaintained modules, including dead API's. Sadly, there's
